@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3815499566052015180}
   - component: {fileID: 3815499566052604876}
   - component: {fileID: 3815499566050742902}
-  - component: {fileID: 5999047735459531966}
+  - component: {fileID: 440826656}
   m_Layer: 0
   m_Name: Food_Fish_Cooked
   m_TagString: Untagged
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1239cf403f3374730a849157526b9ff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5999047735459531966
+--- !u!114 &440826656
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

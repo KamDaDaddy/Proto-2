@@ -57,9 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Course Library/Scripts/MoveForward.cs" />
+    <Compile Include="Assets/Challenge 2/Scripts/DetectCollisionsX.cs" />
+    <Compile Include="Assets/Challenge 2/Scripts/PlayerControllerX.cs" />
+    <Compile Include="Assets/Challenge 2/Scripts/DestroyOutOfBoundsX.cs" />
+    <Compile Include="Assets/Challenge 2/Scripts/SpawnManagerX.cs" />
     <Compile Include="Assets/Course Library/Scripts/SpawnManager.cs" />
     <Compile Include="Assets/Course Library/Scripts/DestroyOutOfBounds.cs" />
     <Compile Include="Assets/Course Library/Scripts/DetectCollisions.cs" />
+    <Compile Include="Assets/Challenge 2/Scripts/MoveForwardX.cs" />
     <Compile Include="Assets/Course Library/Scripts/PlayerController.cs" />
   </ItemGroup>
   <ItemGroup>

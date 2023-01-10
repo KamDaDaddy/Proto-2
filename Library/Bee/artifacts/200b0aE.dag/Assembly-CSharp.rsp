@@ -360,6 +360,7 @@
 "Assets/Challenge 2/Scripts/SpawnManagerX.cs"
 "Assets/Course Library/Scripts/DestroyOutOfBounds.cs"
 "Assets/Course Library/Scripts/DetectCollisions.cs"
+"Assets/Course Library/Scripts/GameManager.cs"
 "Assets/Course Library/Scripts/MoveForward.cs"
 "Assets/Course Library/Scripts/PlayerController.cs"
 "Assets/Course Library/Scripts/SpawnManager.cs"

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442675651}
   - component: {fileID: 4028516749453940227}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Skunk_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442557737}
   - component: {fileID: 4028516749453904195}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Wolf_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442648799}
   - component: {fileID: 4028516749454010965}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Raccoon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,7 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442567253}
   - component: {fileID: 4028516749453894373}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Raccoon_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -350,7 +350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442623271}
   - component: {fileID: 4028516749453895725}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Wolf_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -435,7 +435,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442580417}
   - component: {fileID: 4028516749453991539}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Skunk_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442571383}
   - component: {fileID: 4028516749453991715}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Fox_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -605,7 +605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442651703}
   - component: {fileID: 4028516749453916159}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Wolf_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442659147}
   - component: {fileID: 4028516749453916875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Skunk_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -775,7 +775,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442563983}
   - component: {fileID: 4028516749453983587}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Raccoon_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -862,7 +862,9 @@ GameObject:
   - component: {fileID: 4028516749449819649}
   - component: {fileID: 4028516749442504273}
   - component: {fileID: 8805607983294620055}
-  m_Layer: 0
+  - component: {fileID: 1968246146544113867}
+  - component: {fileID: 1630802933839799363}
+  m_Layer: 7
   m_Name: Ocha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -940,6 +942,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1ad24a02998e43b8b9cdcbf8cebd58c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!54 &1968246146544113867
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028516749442458729}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &1630802933839799363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4028516749442458729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09835432, y: 0.19716524, z: 0.2946303}
+  m_Center: {x: 0.0011913896, y: 0.10225891, z: 0.013247895}
 --- !u!1 &4028516749442461267
 GameObject:
   m_ObjectHideFlags: 0
@@ -950,7 +981,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442663625}
   - component: {fileID: 4028516749453889965}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Fox_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1035,7 +1066,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4028516749442642949}
   - component: {fileID: 4028516749453888673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: SM_Fox_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

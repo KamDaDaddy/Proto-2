@@ -15,6 +15,7 @@ public class DetectCollisions : MonoBehaviour
     {
         
     }
+    //When projectille collides with animal, it destroys the animal and itself
     void OnTriggerEnter(Collider other)
     {
         Destroy(gameObject);

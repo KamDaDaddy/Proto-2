@@ -5,13 +5,16 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
 
+    //Declares multiple prefabs
     public GameObject[] animalPrefabs;
 
+    //Spawner details
     private float spawnRangeX = 20;
     private float spawnPosZ = 20;
     private float startDelay = 3.0f;
     private float spawnInterval = 2.0f;
     
+    //x and z axis max and min ranges
     float xLeft = 22;
     float xRight = 21;
     float zRangeMin = 3;
